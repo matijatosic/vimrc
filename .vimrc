@@ -10,7 +10,7 @@ noremap k <Down>
 noremap j <Left>
 noremap t gt
 noremap T gT
-inoremap {<Enter> {<Enter> <Enter>}<Esc>k$xi<Right>
+noremap {<Enter> {<Enter> <Enter>}<Esc>k$xi<Right>
 
 
 if exists("+showtabline")
