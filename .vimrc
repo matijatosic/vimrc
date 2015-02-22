@@ -5,10 +5,12 @@ set nowrap
 set number
 highlight LineNr ctermfg=grey
 
-nnoremap i <Up>
-nnoremap k <Down>
-nnoremap j <Left>
-nnoremap {<Enter> {<Enter> <Enter>}<Esc>k$xi<Right>
+noremap i <Up>
+noremap k <Down>
+noremap j <Left>
+noremap t gt
+noremap T gT
+inoremap {<Enter> {<Enter> <Enter>}<Esc>k$xi<Right>
 
 
 if exists("+showtabline")
