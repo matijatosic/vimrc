@@ -3,7 +3,7 @@ set smartindent
 set nowrap
 
 set number
-highlight LineNr ctermfg=grey
+highlight LineNr ctermfg=darkgrey
 
 noremap i <Up>
 noremap k <Down>
