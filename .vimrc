@@ -11,10 +11,8 @@ noremap j <Left>
 noremap t gt
 noremap T gT
 inoremap {<Enter> {<Enter> <Enter>}<Esc>k$xi<Right>
-inoremap jlk 30k
-inoremap ljk 30k
-inoremap jli 30i
-inoremap lji 30i
+map K 30k
+map I 30i
 
 
 if exists("+showtabline")
