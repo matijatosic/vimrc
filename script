@@ -1,0 +1,2 @@
+curl https://raw.githubusercontent.com/dalers/mywind/master/northwind.sql | mysql -uroot -proot -h127.0.0.1
+curl https://raw.githubusercontent.com/dalers/mywind/master/northwind-data.sql | mysql -uroot -proot -h127.0.0.1
