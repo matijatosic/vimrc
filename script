@@ -1,3 +1,3 @@
-curl https://raw.githubusercontent.com/dalers/mywind/master/northwind.sql | mysql -uroot -proot -h127.0.0.1
-curl https://raw.githubusercontent.com/dalers/mywind/master/northwind-data.sql | mysql -uroot -proot -h127.0.0.1
-echo 'USE `northwind`; CREATE TABLE `northwind`.`users` (`id` INT(11) NOT NULL, `first_name` VARCHAR(50) NOT NULL DEFAULT "", `last_name` VARCHAR(50) NOT NULL DEFAULT "", `email` VARCHAR(50) NOT NULL DEFAULT "", `password` VARCHAR(50) NOT NULL DEFAULT "", `nickname` VARCHAR(50) NULL DEFAULT NULL, PRIMARY KEY (`id`)) ;' | mysql -uroot -proot -h127.0.0.1
+curl https://raw.githubusercontent.com/dalers/mywind/master/northwind.sql | mysql -uroot -pvivify -h127.0.0.1
+curl https://raw.githubusercontent.com/dalers/mywind/master/northwind-data.sql | mysql -uroot -pvivify -h127.0.0.1
+echo 'USE `northwind`; CREATE TABLE `northwind`.`users` (`id` INT(11) NOT NULL, `first_name` VARCHAR(50) NOT NULL DEFAULT "", `last_name` VARCHAR(50) NOT NULL DEFAULT "", `email` VARCHAR(50) NOT NULL DEFAULT "", `password` VARCHAR(50) NOT NULL DEFAULT "", `nickname` VARCHAR(50) NULL DEFAULT NULL, PRIMARY KEY (`id`)) ;' | mysql -uroot -pvivify -h127.0.0.1
